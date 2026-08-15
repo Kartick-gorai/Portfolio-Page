@@ -1,12 +1,28 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="output.css">
-</head>
-<body>
-    <h1>HII</h1>
-</body>
+    <link rel="stylesheet" href="output.css" />
+  </head> 
+  <body>
+    <header class="border-b border-(--border-subtle)">
+      <nav class="flex justify-between max-w-6xl mx-auto px-6 items-center h-16">
+        <a href="#">kartick<span class="text-amber-400 text-xl">.</span>dev</a>
+        <ul class="hidden md:flex gap-6 text-sm text-(--text-3)">
+          <li class="hover:text-(--text-1) cursor-pointer transition-all duration-200">Stack</li>
+          <li class="hover:text-(--text-1) cursor-pointer transition-all duration-200">Projects</li>
+          <li class="hover:text-(--text-1) cursor-pointer transition-all duration-200">Experience</li>
+          <li class="hover:text-(--text-1) cursor-pointer transition-all duration-200">Contact</li>
+        </ul>
+        <a href="#" class="hidden md:flex text-sm items-center  gap-2 text-(--accent) border px-4 py-2 rounded-full hover:bg-(--accent-dim) transition-all duration-200"
+          >Read Blog
+          <svg  class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+          </svg>
+        </a>
+      </nav>
+    </header>
+  </body>
 </html>
