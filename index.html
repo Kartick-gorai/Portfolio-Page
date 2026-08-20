@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="output.css" />
   </head>
   <body>
-    <header class="fixed backdrop-blur-xs inset-x-0 bg-(--navbar-bg) border-b border-(--border-subtle)">
+    <header class="fixed backdrop-blur-xs inset-x-0 bg-(--navbar-bg) border-b border-(--border-subtle) z-10">
       <nav class="flex justify-between max-w-6xl mx-auto px-6 items-center h-16">
         <a href="#">kartick<span class="text-amber-400 text-xl">.</span>dev</a>
         <ul class="hidden md:flex gap-6 text-sm text-(--text-3)">
@@ -28,18 +28,18 @@
     </header>
     <section class="min-h-screen pt-16 flex">
       <div class="max-w-6xl mx-auto px-6 flex justify-center items-start flex-col w-full">
-        <div class="inline-flex items-center gap-2 border border-(--border) px-4 py-2 rounded-full text-xs text-(--text-3) mb-10">
+        <div class="inline-flex items-center gap-2 border border-(--border) px-4 py-2 rounded-full text-xs text-(--text-3) mb-10 animate-fade-in-up">
           <span class="inline-block h-2 w-2 bg-green-400 rounded-full animate-pulse"> </span>
           <p>Open to new opportunities</p>
         </div>
-        <h1 class="font-serif text-6xl md:text-8xl lg:text-[7rem] font-bold mb-10">
+        <h1 class="font-serif text-6xl md:text-8xl lg:text-[7rem] font-bold mb-10 animate-fade-in-up-1">
           <p>Kartick</p>
           <p class="text-(--text-4)">Gorai</p>
         </h1>
-        <p class="text-(--text-2) text-lg md:text-xl max-w-xl mb-10">
+        <p class="text-(--text-2) text-lg md:text-xl max-w-xl mb-10 animate-fade-in-up-1">
           I build thoughtful, performant web products - from pixel-perfect interfaces to scalable backend systems. Based in India.
         </p>
-        <div class="flex gap-5 items-center  mb-10 ">
+        <div class="flex gap-5 items-center  mb-10 animate-fade-in-up-2">
           <a href="" class="bg-amber-400 hover:bg-amber-300 text-black rounded-full px-6 py-3 text-sm font-medium flex items-center gap-2 transition-all duration-200"
             >View Projects
             <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -47,7 +47,7 @@
             </a>
           <a href="" class="px-6 py-3 rounded-full border border-(--border) text-(--text-2) text-sm">Get in Touch</a>
         </div>
-        <div class=" grid grid-cols-3 gap-10 pt-5 max-w-xs border-t border-(--border)">
+        <div class=" grid grid-cols-3 gap-10 pt-5 max-w-xs border-t border-(--border) animate-fade-in-up-3">
           <div>
             <p class="text-3xl font-semibold mb-1">1+</p>
             <p class="text-xs text-(--text-3)">Years exp.</p>
@@ -63,5 +63,44 @@
         </div>
       </div>
     </section>
+    <section class="border-t border-(--border) py-20 my-4">
+      <div class="max-w-6xl mx-auto px-6">
+        <h2 class="uppercase text-(--text-3) text-xs tracking-widest mb-4">Text Stack</h2>
+        <div class="flex gap-2 items-center overflow-x-auto pb-5">
+          <p class="text-xs text-(--text-4) text-nowrap"> Frontend</p>
+          <p class="text-(--text-2) text-sm border border-(--border) px-5 py-2 rounded-full bg-(--surface-solid) hover:text-(--accent) hover:border-(--accent) transition-all duration-200 cursor-default text-nowrap">React</p>
+
+          <p class="text-(--text-2) text-sm border border-(--border) px-5 py-2 rounded-full bg-(--surface-solid) hover:text-(--accent) hover:border-(--accent) transition-all duration-200 cursor-default text-nowrap">Next.js</p>
+
+          <p class="text-(--text-2) text-sm border border-(--border) px-5 py-2 rounded-full bg-(--surface-solid) hover:text-(--accent) hover:border-(--accent) transition-all duration-200 cursor-default text-nowrap">Type script</p>
+
+          <p class="text-(--text-2) text-sm border border-(--border) px-5 py-2 rounded-full bg-(--surface-solid) hover:text-(--accent) hover:border-(--accent) transition-all duration-200 cursor-default text-nowrap">Tailwind CSS</p>
+
+          <p class="text-(--text-2) text-sm border border-(--border) px-5 py-2 rounded-full bg-(--surface-solid) hover:text-(--accent) hover:border-(--accent) transition-all duration-200 cursor-default text-nowrap">Framer Motion</p>
+
+          <p class="text-xs text-(--text-4) text-nowrap">|</p>
+          <p class="text-xs text-(--text-4) text-nowrap">Backend</p>
+
+          <p class="text-(--text-2) text-sm border border-(--border) px-5 py-2 rounded-full bg-(--surface-solid) hover:text-(--accent) hover:border-(--accent) transition-all duration-200 cursor-default text-nowrap">Node js</p>
+
+          <p class="text-(--text-2) text-sm border border-(--border) px-5 py-2 rounded-full bg-(--surface-solid) hover:text-(--accent) hover:border-(--accent) transition-all duration-200 cursor-default text-nowrap">Express</p>
+
+          <p class="text-(--text-2) text-sm border border-(--border) px-5 py-2 rounded-full bg-(--surface-solid) hover:text-(--accent) hover:border-(--accent) transition-all duration-200 cursor-default text-nowrap">PostgreSQL</p>
+
+          <p class="text-(--text-2) text-sm border border-(--border) px-5 py-2 rounded-full bg-(--surface-solid) hover:text-(--accent) hover:border-(--accent) transition-all duration-200 cursor-default text-nowrap">Prisma ORM</p>
+
+          <p class="text-(--text-2) text-sm border border-(--border) px-5 py-2 rounded-full bg-(--surface-solid) hover:text-(--accent) hover:border-(--accent) transition-all duration-200 cursor-default text-nowrap">Redis</p>
+
+          <p class="text-xs text-(--text-4) text-nowrap">|</p>
+          <p class="text-xs text-(--text-4) text-nowrap">Devops</p>
+
+          <p class="text-(--text-2) text-sm border border-(--border) px-5 py-2 rounded-full bg-(--surface-solid) hover:text-(--accent) hover:border-(--accent) transition-all duration-200 cursor-default text-nowrap">Docker</p>
+          
+          <p class="text-(--text-2) text-sm border border-(--border) px-5 py-2 rounded-full bg-(--surface-solid) hover:text-(--accent) hover:border-(--accent) transition-all duration-200 cursor-default text-nowrap">AWS</p>
+
+          <p class="text-(--text-2) text-sm border border-(--border) px-5 py-2 rounded-full bg-(--surface-solid) hover:text-(--accent) hover:border-(--accent) transition-all duration-200 cursor-default text-nowrap">Vercel</p>
+      </div>
+    </section> 
+
   </body>
 </html>
